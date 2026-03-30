@@ -45,7 +45,7 @@ header .navbar nav ul a{
     background-color: #36724f;
      box-shadow: 0 0 10px rgb(255, 255, 255);
 }
-section{
+.background{
     background-image: url("assets/hero-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -109,4 +109,43 @@ section .hero .buton #clear{
     background-color: white;
     color: black;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.581);
+}
+#card h1{
+    font-size: 48px;
+    padding-top: 68px;
+}
+#card p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    padding-top: 16px;
+    margin-bottom: 44px;
+}
+#card .card-container{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 24px;
+}
+.card-container div img{
+    height: 32px;
+    width: 32px;
+    padding: 14px;
+    background-color: #F95555;
+    border-radius: 100%;
+    margin-bottom: 16px;
+}
+.card-container .cards{
+    max-width: 322px;
+    padding: 69.5px 24px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px #0000000F;
+}
+.card-container .cards h3{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+}
+.card-container .cards p{
+    max-width: 274px;
 }
