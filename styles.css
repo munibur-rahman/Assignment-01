@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.roboto{
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+body{
+    text-align: center;
+}
+header .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 16px 120px;
+    background-color: #FFFFFF;
+}
+header .navbar nav ul{
+    display: flex;
+    list-style: none;
+    gap: 32px;
+}
+header .navbar nav ul a{
+    text-decoration: none;
+}
+.navbar nav ul li{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 152%;
+}
+.btn{
+    background-color: #469165;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 12.5px 16px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #36724f;
+     box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+section{
+    background-image: url("assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 116px 120px 179px;
+
+}
+section .hero {
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+section .hero .early{
+    background-color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    color: #469165;
+    border: none;
+    border-radius: 1000px;
+    padding: 8px 12px;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+.hero .early:hover{
+    background-color: #e8f5ef;
+     box-shadow: 0 0 10px rgba(255, 255, 255, 0.581);
+}
+section .hero h1 {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 84px;
+    color: #FFFFFF;
+}
+section .hero h1 span{
+    display: block;
+    color: #30B868;
+}
+section .hero p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 16px auto 32px;
+    max-width: 750px;
+}
+section .hero p span{
+    margin-top: 12px;
+    display: block;
+}
+section .hero .buton{
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+    gap: 16px;
+}
+section .hero .buton #clear{
+    background:transparent;
+    border: 1px solid #FFFFFF;
+}
+#clear:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.581);
+}
