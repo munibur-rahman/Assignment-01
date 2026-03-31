@@ -182,7 +182,12 @@ section .hero .buton #clear{
     max-width: 700px;
     margin-bottom: 40px;
 }
+.image .list ul li img{
+    margin-right: 6px;
+}
 .image .list ul li{
+    display: flex;
+    align-items: center;
     font-size: 16px;
     font-weight: 500;
     line-height: 20px;
