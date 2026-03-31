@@ -47,7 +47,7 @@ header .navbar nav ul a{
      box-shadow: 0 0 10px rgb(255, 255, 255);
 }
 #access:hover{
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
 }
 .background{
     background-image: url("assets/hero-bg.png");
@@ -115,11 +115,11 @@ section .hero .buton #clear{
     color: black;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.581);
 }
-#card h1 , .image h1{
+#card h1 , .image h1 , .banner h1{
     font-size: 48px;
     color: #001931;
 }
-#card p , .image p{
+#card p , .image p , .banner p{
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
@@ -188,4 +188,21 @@ section .hero .buton #clear{
     line-height: 20px;
     color: #001931;
     margin-bottom: 16px;
+}
+.banner div{
+    background-color: #F7F6F2;
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto 120px;
+    padding: 80px 0;
+    border-radius: 12px;
+}
+.banner div p{
+    margin-bottom: 24px;
+}
+.banner div button{
+    margin-bottom: 16px;
+}
+.banner div button:hover{
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
 }
