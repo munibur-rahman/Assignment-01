@@ -43,7 +43,11 @@ header .navbar nav ul a{
 }
 .btn:hover{
     background-color: #36724f;
+    color: rgba(0, 0, 0, 0.403);
      box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+#access:hover{
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 .background{
     background-image: url("assets/hero-bg.png");
@@ -71,7 +75,8 @@ section .hero .early{
 }
 .hero .early:hover{
     background-color: #e8f5ef;
-     box-shadow: 0 0 10px rgba(255, 255, 255, 0.581);
+    color: black;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.581);
 }
 section .hero h1 {
     font-weight: 700;
@@ -110,15 +115,21 @@ section .hero .buton #clear{
     color: black;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.581);
 }
-#card h1{
+#card h1 , .image h1{
     font-size: 48px;
-    padding-top: 68px;
+    color: #001931;
 }
-#card p{
+#card p , .image p{
+    font-weight: 400;
     font-size: 16px;
     line-height: 20px;
     color: #627382;
     padding-top: 16px;
+}
+#card h1{
+    padding-top: 60px;
+}
+#card p{
     margin-bottom: 44px;
 }
 #card .card-container{
@@ -142,10 +153,39 @@ section .hero .buton #clear{
     box-shadow: 0 0 8px #0000000F;
 }
 .card-container .cards h3{
+    color: #001931;
     font-weight: 600;
     font-size: 24px;
     line-height: 100%;
 }
 .card-container .cards p{
     max-width: 274px;
+}
+.image{
+    padding-top: 72px;
+    display: flex;
+    margin: 0 120px 120px;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+}
+.image .list{
+    max-width: 700px;
+    text-align: left;
+}
+.image .list .solution{
+    font-weight: 500;
+    color: #30B868;
+    margin-bottom: 16px;
+}
+.image .list p{
+    max-width: 700px;
+    margin-bottom: 40px;
+}
+.image .list ul li{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #001931;
+    margin-bottom: 16px;
 }
