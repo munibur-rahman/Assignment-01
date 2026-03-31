@@ -206,3 +206,37 @@ section .hero .buton #clear{
 .banner div button:hover{
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
 }
+footer{
+    background-color: #001931;
+}
+footer .link{
+    display: flex;
+    padding-top: 120px;
+    margin: 0 120px 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .link .social h5{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+footer .link .social img{
+    margin-right: 16px;
+}
+footer hr{
+    max-width: 1360px;
+    margin: 0 auto;
+    border: 0;
+    border-top: 1px solid rgba(98, 115, 130, 0.2);
+    margin-bottom: 30px;
+}
+footer small{
+    font-size: 16px;
+    line-height: 24px;
+    color: #FAFAFA;
+    padding-bottom: 30px;
+    display: block;
+}
